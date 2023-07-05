@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #fff;
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+.active {
+    color:#EF4423;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 30%;
+}
+.menu {
+  width: 70%;
+}
+.menu ul li a {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 18px;
+}
+.container ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu ul li {
+  width: 119px;
+  height: 21px;
+  margin: 43px 15px;
+  text-align: right;
+}
+header .container img {
+  width: 100%;
+  margin: 0 auto;
+ 
+}
+.news {
+  width: 100%;
+  display: flex;
+}
+.content {
+  width: 25%;
+}
+.content img {
+  width: 100%;
+}
+.content h4 {
+  font-size: 19px;
+  font-weight: 700;
+  margin: 15px;
+  line-height: 22.27px;
+  color: #ebebeb;
+}
+.content p {
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 18.75px;
+  color: #ebebeb;
+  padding: 15px;
+}
+.first {
+  background: #b71c1c;
+}
+.second {
+  background: #6a1b9a;
+}
+.second p,
+.fourth p {
+  margin-bottom: 28px;
+}
+.third {
+  background: #303f9f;
+}
+.fourth {
+  background: #00695c;
+}
+h1 {
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  color: #3a3838;
+  padding: 25px;
+}
+.main-pic {
+  width: 50%;
+}
+.main-pic img {
+  width: 100%;
+}
+.text {
+  width: 50%;
+  padding: 0px 30px;
+}
+.text h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  color: #3a3838;
+  padding-bottom: 29px;
+}
+.text p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #686868;
+}
+footer{
+    margin-top: 50px;
+    background: #3A3838;
+    color:#fff;
+}
+footer a{
+    color:#fff;
+}
+/*Code  by Kamronbek Solih*/

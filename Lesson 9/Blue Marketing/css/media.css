@@ -1,0 +1,132 @@
+@media (max-width:1399.98px){
+  
+    }
+    @media (max-width:1199.98px){
+        .left-sidebar{
+            width: 100%;
+            height: 90px;
+        }
+        .left-sidebar:hover{
+            width: 100%;
+            padding: 10px 15;
+        }
+        .left-sidebar:hover .menu{
+             margin: 0;
+        }
+        .left-sidebar:hover a .fal{
+            margin-right: 39px;
+        }
+        .container{
+            padding-top: 130px;
+        }
+        .left-sidebar nav{
+            flex-direction: row;
+            padding: 10px 15px;
+            align-items: center;
+        }
+        .menu{
+            display: flex;
+            align-items: center ;
+            margin: 0;
+        }
+        .menu li:not(:last-child), .menu li{
+            margin: 0 15px;
+        }
+        .card{
+            width: 215px;
+        }
+        .card:nth-child(3){
+            padding-top: 32px;
+        }
+        .card a {
+            padding: 7px 40px;
+        }
+        .article{
+            width: 670px;
+        }
+    }
+    @media (max-width:991.98px){
+        .services{
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .card{
+            width: 300px;
+            margin: 15px;
+        }
+        .articles{
+            flex-wrap: wrap;
+        }
+        .article{
+            width: 100%;
+        }
+        .articles h3{
+            text-align: center;
+        }
+        .news{
+            max-width: 100%;
+            width: 100%;    
+            
+        }
+        .menu{
+            order:1;
+            margin:0px auto;
+        }
+        .left-sidebar nav{
+            flex-wrap: wrap;
+        }
+        .left-sidebar{
+            height: 150px;
+        }
+        .container{
+            padding-top: 180px;
+        }
+    }
+    @media (max-width:767.98px){
+        .menu li:not(:last-child), 
+        .menu li{
+            margin: 0 10px;
+        }
+        .menu a .fa{
+            margin-right: 10px;
+        }
+        .menu a{
+            font-size: 18px;
+        }
+    }
+    @media (max-width:575.98px){
+        .menu{
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        menu li:not(:last-child),
+        .menu li{
+            margin-bottom:0 5px 10px;
+        }
+        .left-sidebar{
+            height: 160px; 
+        }
+        footer .container{
+            flex-wrap: wrap;
+          
+        }
+        footer h5{
+            /* margin-left: 53px; */
+            font-size: 43px;
+        }
+        .footer-links{
+            width: 100%;
+            align-items: center;
+            margin-top: 15px;
+        }
+        header h1{
+            font-size: 37px;
+            line-height: 45px;
+        }
+        header{
+            padding-left: 30px;
+        }
+        header h{
+        max-width:235px; 
+        }
+    } 

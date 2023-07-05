@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.a {
+    width: 600px;
+    position:relative;
+    margin: 300px 500px;
+    z-index: -2;
+
+}
+
+.b{
+    width: 137px;
+    /* margin: 300px 200px; */
+    position: absolute;
+    top: 357px;
+    left: 765px;
+  
+}
+.c{
+    width: 137px;
+    /* margin: 300px 200px; */
+    position: absolute;
+    top: 357px;
+    left: 765px;
+  
+}
+
+.qora{
+       width: 419px;
+    height: 177px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: 405px;
+    left: 594px;
+    z-index: -1;
+}
